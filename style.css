@@ -10,7 +10,8 @@ ul {
     list-style-type: none;
 }
 
-.header {
+.header,
+.footer {
     background-color: #1F2937;
 }
 
@@ -194,4 +195,13 @@ ul {
 
 .block button:active {
     border: 1px solid #030c1b;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px;
+    color: #ffffff;
 }
