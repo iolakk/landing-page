@@ -28,7 +28,7 @@ ul {
 
 .logo-links ul {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #a1a3a5;
     gap: 16px;
 }
 
@@ -102,6 +102,8 @@ ul {
 }
 
 .card {
+    color: #747679;;
+
     height: 180px;
     width: 180px;
 }
@@ -112,5 +114,9 @@ ul {
 
     border-radius: 8px;
     border: 4px solid #3882F6;
+}
+
+.cards-section {
+    padding-bottom: 64px;
 }
 
