@@ -117,11 +117,38 @@ ul {
 }
 
 .cards-section {
-    padding-bottom: 64px;
+    padding-bottom: 164px;
 }
 
 /* Section with quote */
 .quote-section {
     background-color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 128px;
 }
 
+.quote {
+    width: 600px;
+}
+
+.quote q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #79828f;
+}
+
+
+
+.author {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1F2937;
+
+    display: flex;
+    justify-content: end;
+}
