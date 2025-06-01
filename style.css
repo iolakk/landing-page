@@ -95,5 +95,22 @@ ul {
 }
 
 .cards {
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 48px;
 }
+
+.card {
+    height: 180px;
+    width: 180px;
+}
+
+.card img {
+    height: 180px;
+    width: 180px; 
+
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+}
+
